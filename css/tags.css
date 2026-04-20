@@ -507,6 +507,7 @@ img.inline {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--primary-color);
+  min-height: 96px;
   text-decoration: none;
   display: block;
   margin-bottom: 0.75rem;

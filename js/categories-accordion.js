@@ -3,13 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // 检查是否为展开式布局
   const isAccordionLayout = document.querySelector('.categories-accordion');
   if (!isAccordionLayout) return; // 如果不是展开式布局，不执行以下代码
-
+  
   // 获取主题配置
   const accordionAnimation = window.theme && window.theme.categories && window.theme.categories.accordion_animation !== false;
-
+  console.log(accordionAnimation);
   // 获取所有分类头部
   const categoryHeaders = document.querySelectorAll('.category-header');
-
   // 为每个分类头部添加点击事件
   categoryHeaders.forEach(header => {
     header.addEventListener('click', function(e) {
@@ -24,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 获取文章列表区域
       const categoryPosts = categorySection.querySelector('.category-posts');
       const noPosts = categorySection.querySelector('.no-posts');
-
+      console.log(categorySection.classList);
       // 如果当前分类已经是展开状态，则折叠它
       if (isActive) {
         categorySection.classList.remove('active');

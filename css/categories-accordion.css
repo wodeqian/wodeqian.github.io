@@ -5,6 +5,7 @@
 
 /* 分类手风琴布局 */
 .categories-accordion {
+  min-width: 800px;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-md);
@@ -94,6 +95,7 @@
   width: 100%;
   box-sizing: border-box;
   flex-grow: 1;
+  margin-bottom: 12px;
 }
 
 .category-posts[style*="display: none"] {
@@ -107,6 +109,9 @@
   grid-auto-rows: masonry;
   gap: 1.5rem;
   margin-top: var(--spacing-md);
+  padding: 0 var(--spacing-md) var(--spacing-md) ;
+  /* padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-sm); */
 }
 
 /* 大屏幕多列布局 */
@@ -241,6 +246,6 @@ body.dark-mode .category-info h2 i {
   }
 
   .category-posts {
-    padding: 0 var(--spacing-md) var(--spacing-md);
+    padding: 0 var(--spacing-md) var(--spacing-md) ;
   }
 }

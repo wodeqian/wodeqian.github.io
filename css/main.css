@@ -1347,7 +1347,7 @@ p {
 
 .categories-header {
   text-align: center;
-  margin-bottom: var(--spacing-2xl);
+  /* margin-bottom: var(--spacing-2xl); */
 }
 
 .categories-title {
@@ -1375,7 +1375,7 @@ p {
 }
 
 .category-header {
-  margin-bottom: var(--spacing-lg);
+  /* margin-bottom: var(--spacing-lg); */
 }
 
 .category-title {
