@@ -49,8 +49,8 @@ function ChucklePostAI(AI_option) {
         };
 
         const interface = {
-            name: "然-AI",
-            introduce: "我是文章辅助AI: 然-AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊",
+            name: "AI",
+            introduce: "我是文章辅助AI: AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊",
             version: "deepseek",
             button: ["介绍自己😎", "来点灵感💡", "生成AI简介🤖"],
             ...AI_option.interface

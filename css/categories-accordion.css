@@ -88,7 +88,7 @@
 
 /* 分类文章列表 */
 .category-posts {
-  padding: 0 var(--spacing-lg) var(--spacing-lg);
+  padding: 0;
   opacity: 1;
   transition: opacity 0.3s ease;
   width: 100%;

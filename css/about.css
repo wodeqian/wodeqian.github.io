@@ -249,7 +249,7 @@
 .about-section { background: rgba(255, 255, 255, 0.8); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
 .about-section h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; color: #333; }
 .profile-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
-.profile-item { background: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: all 0.3s ease; cursor: default; }
+.profile-item { background: var(--background-color, #fff); padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: all 0.3s ease; cursor: default; }
 .profile-item:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); background: #fff; }
 .contact-info { display: flex; flex-wrap: wrap; gap: 15px; }
 .contact-item { flex: 1; min-width: 200px; display: flex; align-items: center; background: #f9f9f9; padding: 15px; border-radius: 8px; text-decoration: none; color: #333; transition: all 0.3s ease; }
@@ -257,4 +257,3 @@
 .contact-item i { margin-right: 15px; font-size: 1.5rem; }
 @media (max-width: 768px) { .interest-card { width: 100% !important; max-width: 350px; height: 300px !important; } }
 .skill-tag { display: inline-block; background: #f0f2f5; padding: 4px 12px; margin: 5px; border-radius: 20px; font-size: 0.9rem; color: #4a4a4a; border: 1px solid #e1e4e8; transition: all 0.3s ease; }
-.skill-tag:hover { background: #e1e4e8; transform: translateY(-2px); }
